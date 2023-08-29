@@ -1,0 +1,38 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Toggle Class</title>
+    <style>
+        .A1 {
+            color:brown;
+            text-align: center;
+            font-family: Arial;
+            height: 25px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("h1,div,p").toggleClass("A1");
+            });
+        });
+    </script>
+    <button>Click here for toggle case</button>
+    <h1 class="A1">h1 tag</h1>
+    <div class="A1">this is div tag</div>
+    <div class="A1">hiiiiiiiiiiii</div>
+    <div class="A1">Microsoft .NET</div><br />
+    <p class="A1">10000</p>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Method</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <button>jquery css</button><br /><br />
+    <div style="background-color:aqua">This is div tag</div>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").css("background-color", "Green");
+                $("div").css("height", "100px");
+                $("div").css("width", "200px");
+                $("div").css("margin-top", "300px");
+                $("div").css("margin-left", "300px");
+
+
+                $("div").css("text-align", "center");
+                $("div").css("font-weight", "500");
+
+
+
+
+            });
+        });
+    </script>
+</body>
+</html>
